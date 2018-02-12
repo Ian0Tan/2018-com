@@ -1,5 +1,12 @@
 package Tan;
 
+/**
+ * Signature.java
+ * Prints my signature and a Image
+ * Feb,9,2018
+ * @author Ian Tan
+ */
+
 public class Signature {
 
 	public static void main(String[] args) {
