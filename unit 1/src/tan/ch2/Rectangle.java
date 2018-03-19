@@ -1,4 +1,4 @@
-package Tan;
+package tan.ch2;
 /**
  * Rectangle.java
  * prints a rectangle

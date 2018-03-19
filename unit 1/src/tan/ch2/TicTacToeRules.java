@@ -1,4 +1,4 @@
-package Tan;
+package tan.ch2;
 /**
  * TicTacToeRules.java
  * prints the rules for tic-tac-toe

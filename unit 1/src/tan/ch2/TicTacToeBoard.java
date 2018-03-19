@@ -1,4 +1,4 @@
-package Tan;
+package tan.ch2;
 /**
  * TicTacToeBoard.java
  * prints a tic-tac-toe board

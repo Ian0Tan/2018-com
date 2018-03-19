@@ -1,4 +1,4 @@
-package Tan;
+package tan.ch2;
 /**
  * HelloWorld.java
  * prints Hello World

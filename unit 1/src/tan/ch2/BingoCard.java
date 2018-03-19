@@ -1,4 +1,4 @@
-package Tan;
+package tan.ch2;
 /**
  * BingoCard.java
  * prints a bingo card

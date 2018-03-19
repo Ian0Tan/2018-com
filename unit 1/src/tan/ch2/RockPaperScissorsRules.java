@@ -1,4 +1,4 @@
-package Tan;
+package tan.ch2;
 /**
  * RockPaperScissorsRules.java
  * prints the rules for rock paper scissors
