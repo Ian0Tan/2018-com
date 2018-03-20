@@ -1,10 +1,16 @@
 package tan.ch3;
-
+/**
+ * Energy.java
+ * 
+ * Mar,20,2018
+ * @author Ian Tan
+ */
 import java.util.Scanner;
 
 public class Energy {
 
 	public static void main(String[] args) {
+		
 		Scanner input = new Scanner(System.in);
 		double mass = 0;
 		double energy = 0;
