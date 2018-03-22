@@ -1,4 +1,10 @@
 package tan.ch3;
+/**
+ * Spending.java
+ * 
+ * Mar,21,2018
+ * @author Ian Tan
+ */
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -40,8 +46,8 @@ public class Spending {
 		System.out.println("Category	Budget");
 		System.out.println("Food		" + df.format (foodPercent));
 		System.out.println("Clothing	" + df.format (clothingPercent));
-		System.out.println( df.format (entertainmentPercent));
-		System.out.println( df.format (rentPercent));
+		System.out.println("Entertainment	" + df.format (entertainmentPercent));
+		System.out.println("Rent		" + df.format (rentPercent));
 		// TODO Auto-generated method stub
 
 	}
