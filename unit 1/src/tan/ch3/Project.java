@@ -25,8 +25,7 @@ public static void main(String[] args) {
 		double debuggingPercent = 0;
 		double testingPercent = 0;
 		
-		System.out.println("Enter the amount spent last month on the following items: ");
-		System.out.println(" ");
+		
 		System.out.println("Designing:");
 		designing = input.nextDouble();
 		System.out.println("Coding:");
