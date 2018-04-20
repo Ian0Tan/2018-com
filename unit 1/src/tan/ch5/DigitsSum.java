@@ -4,7 +4,12 @@
 package tan.ch5;
 
 import java.util.Scanner;
-
+/**
+ * DigitsSum.java
+ * 
+ * Apr,20,2018
+ * @author Ian Tan
+ */
 public class DigitsSum {
 
 
