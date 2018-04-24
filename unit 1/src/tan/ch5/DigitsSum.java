@@ -28,7 +28,8 @@ public class DigitsSum {
 		
 		while(counter != numberDigits) {
 		digit = number.charAt(location);
-		digit -= 48;
+		/*digit -= 48;
+		*/
 		sum += digit;
 		location += 1;
 		counter += 1;
