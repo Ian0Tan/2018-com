@@ -1,4 +1,4 @@
-package tan.ch2;
+package tan.methods;
 
 /**
  * Signature.java
@@ -8,8 +8,14 @@ package tan.ch2;
  */
 
 public class Signature {
-
+	
 	public static void main(String[] args) {
+		
+		printsignature();
+		printimage();
+	}
+	//prints "Tan Tan" to the console
+	public static void printsignature() {
 		System.out.println(" __o__                              ____o__ __o____                     ");
 		System.out.println("   |                                 /   \\   /   \\                      ");
 		System.out.println("  / \\                                     \\o/                           ");
@@ -18,7 +24,10 @@ public class Signature {
 		System.out.println("  < >    />     / \\  / \\   / \\             |      />     / \\  / \\   / \\ ");
 		System.out.println("   |     \\      \\o/  \\o/   \\o/             o      \\      \\o/  \\o/   \\o/ ");
 		System.out.println("   o      o      |    |     |             <|       o      |    |     |  ");
-		System.out.println("__|>_    <\\__  / \\  / \\   / \\            / \\      <\\__  / \\  / \\   / \\ ");
+		System.out.println(" __|>_    <\\__  / \\  / \\   / \\            / \\      <\\__  / \\  / \\   / \\ ");
+	}
+		//prints an image of a book
+		public static void printimage() {
 		System.out.println("");
 		System.out.println("                                                                     .,,,.");
 		System.out.println("                                                         .,*(((((////////////(((((/,. ");
