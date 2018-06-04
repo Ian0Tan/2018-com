@@ -6,7 +6,7 @@ public class MathPlus {
 
 	public static void main(String[] args) {
 		int[] nums = {6,9,4};
-		System.out.println( min(nums));
+		System.out.println( max(nums));
 
 
 		//Adds two int numbers together and returns the total
@@ -146,14 +146,71 @@ public class MathPlus {
 		}
 		return total;	
 	}
-	
+	//Returns the index of where the smallest int number in the array is located
 	public static int min(int[] nums) {
 		int minIn = 0;
 		for(int i=1; i < nums.length; i++) {
 			if(nums[i] < nums[minIn]) {
-			minIn = i;	
+				minIn = i;	
 			}
-		
+
+		}
+		return minIn;	
+	}
+	//Returns the index of where the smallest double number in the array is located
+	public static double min(double[] nums) {
+		int minIn = 0;
+		for(int i=1; i < nums.length; i++) {
+			if(nums[i] < nums[minIn]) {
+				minIn = i;	
+			}
+
+		}
+		return minIn;	
+
+	}
+	//Returns the index of where the smallest long number in the array is located
+	public static long min(long[] nums) {
+		int minIn = 0;
+		for(int i=1; i < nums.length; i++) {
+			if(nums[i] < nums[minIn]) {
+				minIn = i;	
+			}
+
+		}
+		return minIn;	
+
+	}
+	//Returns the index of where the largest int number in the array is located
+	public static int max(int[] nums) {
+		int minIn = 0;
+		for(int i=1; i < nums.length; i++) {
+			if(nums[i] > nums[minIn]) {
+				minIn = i;	
+			}
+
+		}
+		return minIn;	
+	}
+	//Returns the index of where the largest double number in the array is located
+	public static double max(double[] nums) {
+		int minIn = 0;
+		for(int i=1; i < nums.length; i++) {
+			if(nums[i] > nums[minIn]) {
+				minIn = i;	
+			}
+
+		}
+		return minIn;	
+	}
+	//Returns the index of where the largest long number in the array is located
+	public static long max(long[] nums) {
+		int minIn = 0;
+		for(int i=1; i < nums.length; i++) {
+			if(nums[i] > nums[minIn]) {
+				minIn = i;	
+			}
+
 		}
 		return minIn;	
 	}
